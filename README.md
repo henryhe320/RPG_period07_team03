@@ -1,2 +1,2 @@
 # RPG_07_03
-Sajed Nahian, Kevin Flores, and Henry He's RPG mini-project
+Henry He, Kevin Flores, and Sajed Nahian's RPG mini-project!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
