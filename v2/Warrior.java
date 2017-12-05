@@ -1,5 +1,5 @@
 public class Warrior extends Protagonist{
-	protected armorDefense;
+	protected int armorDefense;
 	
 	public Warrior(String givenName){
 		super(givenName);
