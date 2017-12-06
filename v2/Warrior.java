@@ -6,4 +6,8 @@ public class Warrior extends Protagonist{
 		health -= 40;
 		defense -= 20;
 	}
+
+	public String toString () {
+		return super.toString() + System.lineSeparator() + "Class: Warrior";
+	}
 }

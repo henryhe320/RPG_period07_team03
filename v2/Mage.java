@@ -14,4 +14,8 @@ public class Mage extends Protagonist{
 	public void learnMoreMagic () {
 		magicPower *= 1.5;
 	}
+
+	public String toString () {
+		return super.toString() + System.lineSeparator() + "Class: Mage/Magic Power: " + magicPower;
+	}
 }

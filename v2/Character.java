@@ -22,4 +22,9 @@ public class Character {
     	characterToAttack.lowerHP(damage);
         return damage;
     }
+
+    // public String toString () {
+    //     return "Health/Strength/Defense/AttackRating: " + System.lineSeparator() +
+    //     health + "/" + strength + "/" + defense + "/" + attackRating;
+    // }
 }

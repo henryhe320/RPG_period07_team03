@@ -22,4 +22,10 @@ public class Protagonist extends Character {
         defense += 1;
         attackRating -= 1;
     }
+	
+	public String toString () {
+		return "Name: " + name + System.lineSeparator() +
+        "Health/Strength/Defense/AttackRating: " + System.lineSeparator() +
+		health + "/" + strength + "/" + defense + "/" + attackRating;
+	}
 }

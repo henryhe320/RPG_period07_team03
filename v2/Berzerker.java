@@ -7,4 +7,8 @@ public class Berzerker extends Protagonist {
 		attackRating -= .1;
 		strength -= 30;
 	}
+
+	public String toString () {
+		return super.toString() + System.lineSeparator() + "Class: Berzerker";
+	}
 }
