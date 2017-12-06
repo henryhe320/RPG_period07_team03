@@ -15,11 +15,11 @@ public class Protagonist extends Character {
 
     public void specialize(){
         defense -= 10 ;
-        attackRating += 10;
+        attackRating += 1;
     }
 
     public void normalize(){
-        defense = 40;
-        attackRating = 0.4;
+        defense += 1;
+        attackRating -= 1;
     }
 }

@@ -1,18 +1,9 @@
 public class Warrior extends Protagonist{
-	protected int armorDefense;
-	
+	//A Class with unmatching offensive stats but weak defense stats.
 	public Warrior(String givenName){
 		super(givenName);
-		armorDefense = 40;
+		strength += 60;
+		health -= 40;
+		defense -= 20;
 	}
-	
-    public void lowerHP(int damage){
-	   if (armorDefense <= damage){
-		   armorDefense = 0;
-	       damage -= armorDefense;
-	       health -= damage
-	   } else {
-	       armorDefense -= damage;
-	   }
-    }
 }
