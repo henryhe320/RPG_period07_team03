@@ -5,7 +5,7 @@ Sajed Nahian
 Henry He
 Kevin Flores
 -----------------------
-Protagonist Classes
+Protagonist Subclasses
 -----------------------
 -Berzerker (High Defenses/ Low Offensives)
 -Mage (Ability to Heal)
