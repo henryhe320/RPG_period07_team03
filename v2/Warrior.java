@@ -1,10 +1,9 @@
 public class Warrior extends Protagonist{
 	//A Class with unmatching offensive stats but weak defense stats.
+	//Warrior Stats: 85/160/20/0.4 (Health/Strength/Defense/AttackRating) 
+	
 	public Warrior(String givenName){
-		super(givenName);
-		strength += 60;
-		health -= 40;
-		defense -= 20;
+		super(givenName, 85, 160, 20, 0.4);
 	}
 
 	public String toString () {

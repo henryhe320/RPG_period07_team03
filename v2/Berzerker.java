@@ -1,11 +1,8 @@
 public class Berzerker extends Protagonist {
 	//Class with a lot of health and defense but weak attack stats
+	//Berzerker Stats: 205/70/70/0.2 (Health/Strength/Defense/AttackRating) 
 	public Berzerker(String givenName){
-		super(givenName);
-		health += 80;
-		defense += 30;
-		attackRating -= .1;
-		strength -= 30;
+		super(givenName, 205, 70, 70, 0.2);
 	}
 
 	public String toString () {
