@@ -1,6 +1,6 @@
 public class Mage extends Protagonist{
 	//Class able to heal itself through magic prowess
-	protected float magicPower;
+	protected double magicPower;
 	
 	public Mage(String givenName){
 		super(givenName);
