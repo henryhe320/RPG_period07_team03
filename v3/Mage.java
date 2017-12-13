@@ -17,6 +17,9 @@ public class Mage extends Protagonist{
 	}
 
 	public String toString () {
-		return super.toString() + System.lineSeparator() + "Class: Mage/Magic Power: " + magicPower;
+		return "Name: " + name + System.lineSeparator() +
+        "Health/Strength/Defense/AttackRating: " + System.lineSeparator() +
+		health + "/" + strength + "/" + defense + "/" + attackRating +
+		System.lineSeparator() + "Class: Mage/Magic Power: " + magicPower;
 	}
 }

@@ -6,6 +6,9 @@ public class Berzerker extends Protagonist {
 	}
 
 	public String toString () {
-		return super.toString() + System.lineSeparator() + "Class: Berzerker";
+		return "Name: " + name + System.lineSeparator() +
+        "Health/Strength/Defense/AttackRating: " + System.lineSeparator() +
+		health + "/" + strength + "/" + defense + "/" + attackRating +
+		System.lineSeparator() + "Class: Berzerker";
 	}
 }
