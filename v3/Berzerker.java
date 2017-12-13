@@ -11,4 +11,16 @@ public class Berzerker extends Protagonist {
 		health + "/" + strength + "/" + defense + "/" + attackRating +
 		System.lineSeparator() + "Class: Berzerker";
 	}
+
+	public void specialize(){
+		//Can add unique values if wanted
+        defense -= 10 ;
+        attackRating += 1;
+    }
+
+    public void normalize(){
+    	//Can add unique values if wanted
+        defense += 1;
+        attackRating -= 1;
+    }
 }

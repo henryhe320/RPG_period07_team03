@@ -25,15 +25,9 @@ public abstract class Protagonist extends Character {
         this.attackRating = attackRating;      
     }
 
-    public void specialize(){
-        defense -= 10 ;
-        attackRating += 1;
-    }
+    public abstract void specialize();
 
-    public void normalize(){
-        defense += 1;
-        attackRating -= 1;
-    }
+    public abstract void normalize();
 	
     // Error when you make toString abstract without changing header:
 
@@ -49,7 +43,7 @@ public abstract class Protagonist extends Character {
 		// health + "/" + strength + "/" + defense + "/" + attackRating;
 
     // Error when you try to instantiate an abstract class (specifically this Protagonist class):
-    
+
     // Protagonist.java:52: error: Protagonist is abstract; cannot be instantiated
     // Protagonist x = new Protagonist();
     //                 ^

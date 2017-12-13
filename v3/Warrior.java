@@ -21,5 +21,15 @@ public class Warrior extends Protagonist{
 		System.lineSeparator() + "Class: Warrior";
 	}
 
+	public void specialize(){
+		//Can add unique values if wanted
+        defense -= 10 ;
+        attackRating += 1;
+    }
 
+    public void normalize(){
+    	//Can add unique values if wanted
+        defense += 1;
+        attackRating -= 1;
+    }
 }
